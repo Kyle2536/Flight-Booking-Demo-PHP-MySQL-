@@ -6,7 +6,7 @@ A minimal flight-booking web app that demonstrates **user auth**, **flight selec
 
 ---
 
-## ✨ Features
+## Features
 - Passenger **sign‑up** and **login** (session‑based auth)
 - Authenticated **dashboard** with user context
 - **Flight selection** → creates a booking
@@ -15,7 +15,7 @@ A minimal flight-booking web app that demonstrates **user auth**, **flight selec
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 - PHP 8.x (works on 7.4+, but prefer 8.x)
 - MySQL 8.x (or MariaDB)
 - HTML/CSS (vanilla)
@@ -23,7 +23,7 @@ A minimal flight-booking web app that demonstrates **user auth**, **flight selec
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```
 .
 ├── login.html              # Login form (posts to login.php, links to signup.php)
@@ -36,7 +36,7 @@ A minimal flight-booking web app that demonstrates **user auth**, **flight selec
 
 ---
 
-## 🚀 Getting Started (Local)
+## Getting Started (Local)
 
 ### 1) Prerequisites
 Install:
@@ -130,7 +130,7 @@ Now open:
 
 ---
 
-## 🔐 Security Checklist
+## Security Checklist
 - Use `password_hash()` and `password_verify()` for passwords
 - Always use PDO **prepared statements** to prevent SQL injection
 - Validate/sanitize all user input server‑side
@@ -139,7 +139,7 @@ Now open:
 
 ---
 
-## 🔧 Troubleshooting
+## Troubleshooting
 - **“DB connection failed”** → verify `config.php` credentials and MySQL is running
 - **Blank page / warnings hidden** → enable errors during dev:
   ```php
@@ -151,7 +151,7 @@ Now open:
 
 ---
 
-## 🗺️ Roadmap Ideas
+## Roadmap Ideas
 - Client‑side validation and nicer error messages
 - Seat map + seat inventory decrement
 - “My bookings” page + cancellation
@@ -160,5 +160,5 @@ Now open:
 
 ---
 
-## 📜 License
+## License
 Choose a license (MIT recommended for demos) and add a `LICENSE` file.
